@@ -1,16 +1,70 @@
-# argi_lens_app
+# 🌱 AgriLens
 
-A new Flutter project.
+**AgriLens** is a Flutter-based agricultural application combining modern mobile UI with state management, local storage, remote networking, and Firebase integration.
 
-## Getting Started
+## ✨ Features
+- 🏠 Home dashboard with bottom navigation
+- ⏱️ Timer workflow
+- 📷 Scan workflow
+- 🕘 History section
+- ⚙️ Settings and profile-related screens
+- 🌐 REST API communication using Dio
+- 🔐 Firebase integration
+- 💾 Local persistence
+- 📊 Data visualization and searchable lists
+- 🎨 Agricultural-focused UI
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+- **Flutter & Dart**
+- **BLoC / Cubit**
+- **Dio**
+- **Firebase**
+- **SQLite (sqflite)**
+- **SharedPreferences**
+- **FL Chart**
+- **Google Fonts**
+- **Flutter SVG**
+- **Equatable**
 
-A few resources to get you started if this is your first Flutter project:
+## 🏗️ Architecture & Code Organization
+```text
+lib/
+├── modules/
+├── shared/
+│   ├── cubit/
+│   └── network/
+├── firebase_options.dart
+└── main.dart
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The project uses Cubit for state management, Dio for remote communication, and shared layers for reusable application infrastructure.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+```bash
+git clone https://github.com/Aahmedkamell/argi_lens_app.git
+cd argi_lens_app
+flutter pub get
+```
+
+Configure the required Firebase project and platform configuration, then run:
+```bash
+flutter run
+```
+
+## 📸 Screenshots
+Add screenshots under:
+```text
+assets/screenshots/
+```
+
+## 🎯 Technical Highlights
+- State-driven UI with Cubit
+- REST API integration
+- Local persistence
+- Firebase integration
+- Search, filtering, charts, and date-selection components
+- Modular and reusable Flutter code
+
+## 👨‍💻 Author
+**Ahmed Ashraf Mohammed Kamel**  
+Flutter Developer
